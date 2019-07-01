@@ -1,0 +1,435 @@
+*{
+    margin:0;
+    padding:0;
+}
+html,body,.main{
+    height:100%;
+}
+
+.main{
+    position: relative;
+    max-width:750px;
+    margin:0 auto;
+}
+.swiper-container {
+    width: 100%;
+    height: 100%;
+} 
+.page1{
+    position: relative;
+    background:url("../images/beijing11.png") center center no-repeat;
+    background-size:100% 100%;
+}
+.page1>img{
+    position:absolute;
+
+}
+.biaotou{
+    width:9.55rem;
+    height: 5.31rem;
+    top: -0.46rem;
+    right: -126px;
+}
+
+.wode{
+    width:2.78rem;
+    height:1.74rem;
+    left:0.3rem;
+    top:3.6rem;
+}
+.zuopinji{
+    width:5.8rem;
+    height:5.8rem;
+    right:0.4rem;
+    top:3.8rem;
+}
+
+.di{
+    width:12.6rem;
+    height:5.02rem;
+    bottom:0px;
+    left:0px;
+
+}
+.swiper-button-next{
+    width:0.5rem;
+    height:0.4rem;
+    background:url("../images/arrow.png") center center no-repeat;
+    background-size:cover;
+    bottom: 0.5rem;
+    top: auto;
+    left: 50%;
+    right: auto;
+    margin-left: -0.25rem;
+    animation:slideInUp 1s infinite;
+}
+
+
+  @-webkit-keyframes slideInUp {
+    from {
+      -webkit-transform: translate3d(0, 100%, 0);
+      transform: translate3d(0, 100%, 0);
+      visibility: visible;
+    }
+  
+    to {
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+    }
+  }
+  
+  @keyframes slideInUp {
+    from {
+      -webkit-transform: translate3d(0, 100%, 0);
+      transform: translate3d(0, 100%, 0);
+      visibility: visible;
+    }
+  
+    to {
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+    }
+  }
+  
+  .slideInUp {
+    -webkit-animation-name: slideInUp;
+    animation-name: slideInUp;
+  }
+  
+  
+  /* 第二页 */
+  .page2{
+      position: relative;
+  }
+  .page2>img{
+      position: absolute;
+  }
+  .page2{
+      height:100%;
+      background:url("../images/beijing11.png") center center no-repeat;
+      background-size:cover;
+
+  }
+
+  
+  
+  .boshi{
+    width: 3.6rem;
+    height: 2rem;
+    right: 0.3rem;
+    top: 1.7rem;
+
+  }
+  .dibu1{
+    width: 4.33rem;
+    height: 2rem;
+    left: -0.5rem;
+    bottom: -0.1rem;
+  }
+  .dibu2{
+    width: 2.75rem;
+    height: 2.19rem;
+    bottom: -0.1rem;
+    left: 42%;
+    margin-left: -0.875rem;
+  }
+  .dibu3{
+    width: 3.48rem;
+    height: 1.81rem;
+    right: -0.1rem;
+    bottom: 0rem;
+
+  }
+  .textContent{
+      position:absolute;
+      font-size:0.3rem;
+      left:0.8rem;
+      top:3.5rem;
+      line-height:0.6rem;
+      color:rgb(14, 13, 13);
+      
+  }
+  .shu{
+    display: block;
+    width: 6.44rem;
+    height: 3.24rem;
+    bottom: 2.1rem;
+    left: 0.5rem;
+  }
+
+  /* 相框 */
+  .kuangBox{
+    width: 7.14rem;
+    height: 4.24rem;
+    background: url("../images/kuang.png") center center no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    left: 36%;
+    margin-left: -2.72rem;
+    bottom: 1.6rem;
+    padding: 0.4rem;
+    box-sizing: border-box;
+  }
+  
+/* page3 */
+   .page3{
+    height:100%;
+    background:url("../images/beijing11.png") center center no-repeat;
+    background-size:cover;
+   }
+   .page3>img{
+       position: absolute;
+   }
+  .zuopinzhanshi{
+    width:5.72rem;
+    height:2.96rem;
+    top:0.5rem;
+    left:50%;
+    margin-left:-2.86rem;
+  }
+  .di1{
+    width: 182%;
+    height: 33%;
+    left: -177px;
+    bottom: -26px;
+  }
+
+  .mianmo{
+      position: absolute;
+      width: 3.56rem;
+    height: 3.04rem;
+    background: url(../images/mianmo.png) center center no-repeat;
+    background-size: 100% 100%;
+    left: 0.22rem;
+    top: 3.2rem;
+    
+    box-sizing: border-box;
+  }
+  
+  .ren{
+    position: absolute;
+    width: 2.56rem;
+    height: 3.04rem;
+  background: url(../images/ren.png) center center no-repeat;
+  background-size: 100% 100%;
+  
+  right: 3%;
+    left: 4.22rem;
+    top: 3.2rem;
+  
+  box-sizing: border-box;
+}
+
+.caise{
+  position: absolute;
+  
+
+    background: url(../images/caise.png) center center no-repeat;
+    background-size: 100% 100%;
+    top: 57%;
+    right: -6%;
+    
+    box-sizing: border-box;
+}
+
+/* page4 */
+.page4{
+  height:100%;
+  background:url("../images/beijing11.png") center center no-repeat;
+  background-size:cover;
+ }
+ .page4>img{
+     position: absolute;
+ }
+.zuopinzhanshi{
+  width:5.72rem;
+  height:2.96rem;
+  top:0.5rem;
+  left:50%;
+  margin-left:-2.86rem;
+}
+.di1{
+  width: 182%;
+  height: 33%;
+  left: -177px;
+  bottom: -26px;
+}
+
+.jimu{
+    position: absolute;
+    width: 3.56rem;
+  height: 3.04rem;
+  background: url(../images/jimu.png) center center no-repeat;
+  background-size: 100% 100%;
+  top: 39%;
+  left: 39%;
+  margin-left: -2.78rem;
+  margin-top: -2.02rem;
+  
+  
+  box-sizing: border-box;
+}
+
+.naicha{
+  position: absolute;
+  width: 2.56rem;
+    height: 3.04rem;
+background: url(../images/naicha.png) center center no-repeat;
+background-size: 100% 100%;
+top: 39%;
+    right: 3%;
+
+margin-top: -2.02rem;
+
+box-sizing: border-box;
+}
+
+.冰雪奇缘{
+  position: absolute;
+  
+
+    background: url(../images/冰雪奇缘.png) center center no-repeat;
+    background-size: 100% 100%;
+    top: 54%;
+    right: -6%;
+    
+    box-sizing: border-box;
+}
+
+/* page5 */
+.page5{
+  height:100%;
+  background:url("../images/beijing11.png") center center no-repeat;
+  background-size:cover;
+ }
+ .page5>img{
+     position: absolute;
+ }
+.zuopinzhanshi{
+  width:5.72rem;
+  height:2.96rem;
+  top:0.5rem;
+  left:50%;
+  margin-left:-2.86rem;
+}
+.di1{
+  width: 182%;
+  height: 33%;
+  left: -177px;
+  bottom: -26px;
+}
+
+.竖条{
+  position: absolute;
+  width: 1.56rem;
+    height: 8.04rem;
+    background: url(../images/竖条.png) center center no-repeat;
+    background-size: 100% 100%;
+    top: 23%;
+    left: 33%;
+    margin-left: -2.78rem;
+    margin-top: -2.02rem;
+    box-sizing: border-box;
+}
+
+.竖条2{
+  position: absolute;
+  width: 1.56rem;
+    height: 8.04rem;
+    background: url(../images/竖条2.png) center center no-repeat;
+    background-size: 100% 100%;
+    top: 14%;
+    left: 124%;
+    margin-left: -2.78rem;
+    margin-top: 2.02rem;
+    box-sizing: border-box;
+}
+
+.zi1{
+    position: absolute;
+    width: 3.56rem;
+    height: 3.04rem;
+    background: url(../images/zi1.png) center center no-repeat;
+    background-size: 100% 100%;
+    top: 40%;
+    left: 51%;
+    margin-left: -2.78rem;
+    margin-top: -2.02rem;
+    box-sizing: border-box;
+
+}
+
+.zi2{
+  position: absolute;
+  width: 2.56rem;
+    height: 3.04rem;
+background: url(../images/zi2.png) center center no-repeat;
+background-size: 100% 100%;
+top: 39%;
+    right: 3%;
+
+margin-top: -2.02rem;
+
+box-sizing: border-box;
+}
+
+.zi3{
+  position: absolute;
+  width: 4.56rem;
+    height: 3.04rem;
+    background: url(../images/zi3.png) center center no-repeat;
+    background-size: 100% 100%;
+    top: 48%;
+    right: 12%;
+    box-sizing: border-box;
+}
+
+/* page6*/
+.page6{
+  height:100%;
+  background:url("../images/beijing11.png") center center no-repeat;
+  background-size:cover;
+ }
+ .page6>img{
+     position: absolute;
+ }
+ .二维码 {
+  position: absolute;
+  width: 4.2rem;
+    height: 4.2rem;
+    background: url(../images/二维码.png) center center no-repeat;
+    background-size: 100% 100%;
+    top: 21%;
+    right: 19%;
+    box-sizing: border-box;
+}
+
+.谢谢 {
+  position: absolute;
+  width: 7.2rem;
+    height: 7.2rem;
+    background: url(../images/谢谢.png) center center no-repeat;
+    background-size: 100% 100%;
+    top: 51%;
+    right: -1%;
+    box-sizing: border-box;
+}
+  .yinyue{
+      width:1rem;
+      height:1rem;
+      background:url("../images/yinyue.jpg") center center no-repeat;
+      background-size:cover;
+      position: absolute;
+      left:0.2rem;
+      top:0.2rem;
+      z-index:999;
+      border-radius:50%;
+      animation: yinyue 2s linear infinite;
+
+  }
+
+  @keyframes yinyue{
+      100%{
+          transform: rotate(360deg)
+      }
+  }
